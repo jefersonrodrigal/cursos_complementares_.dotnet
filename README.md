@@ -1,6 +1,6 @@
 # C#
 ## Nivel 1
-- [x] **Lógica de Programação**:
+[&check;] **Lógica de Programação**:
    - Aprender lógica de programação, fundamental para o desenvolvimento de software
    - Conhecer as bases para se criar, analisar e resolver problemas computacionais de forma estruturada e eficiente
    - Entender o que são tipos de dados
