@@ -125,15 +125,15 @@ Fonte: Reddit
 C:\Program Files\dotnet\sdk
 ```
 
-```sql
+```powershell
 C:\Program Files\dotnet\shared\Microsoft.NETCore.App
 ```
 
-```sql
+```powershell
 dotnet --list-sdks
 ```
 
-```sql
+```powershell
 dotnet --list-runtimes
 ```
 
@@ -143,14 +143,14 @@ criar um arquivo global.json na raiz da pasta
 
 para criar um arquivo global.json usa-se o comando 
 
-```json
+```powershell
 dotnet new globaljson --sdk-version <versao> --force
 ```
 
 ```json
 {
  "sdk": {
-		"version":"versao"
+         "version":"versao"
 	}
 }
 ```
