@@ -163,14 +163,15 @@ Se no global.json especificar um versão do SDK
 - Se a versão especificada não for encontrada a versão mais recente será usada
 - Caso nenhuma versão for encontrada, será dado uma excessão
 
+Para criar um projeto dotnet com uma versão especifica utiliza-se o comando
 ```powershell
 dotnet new tipodetemplate -o nomediretorio -f net<version>
 ```
-
+Para saber os tipos de template para projetos pode ser executado o comando 
 ```powershell
 dotnet new --list
 ```
-
+Passando o parametro abaixo na criação do projeto é criado o mesmo sem o top level statement
 ```powershell
 dotnet new tipodetemplate -o nomediretorio --use-program-main
 ```
