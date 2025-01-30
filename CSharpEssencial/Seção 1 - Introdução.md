@@ -172,5 +172,5 @@ dotnet new --list
 ```
 
 ```powershell
-	dotnet new tipodetemplate -o nomediretorio --use-program-main
+dotnet new tipodetemplate -o nomediretorio --use-program-main
 ```
