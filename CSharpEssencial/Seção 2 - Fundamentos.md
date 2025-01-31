@@ -695,5 +695,5 @@ Avalia uma expressão booleana e retorna o resultado de uma das duas expressões
 Exemplo:
 
 ```csharp
-condicao(qualquer expressao booleana) ? expressao_true : expressao_false
+condicao_expressao_booleana ? resultado_se_true : resultado_se_false
 ```
